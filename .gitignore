@@ -1,10 +1,5 @@
 # https://github.com/wearehive/project-guidelines/blob/master/.gitignore
 
-# Gatsby
-.cache/
-public/*
-!public/.gitkeep
-
 ### Node ###
 
 # Logs
