@@ -1,0 +1,62 @@
+{
+	"name": "subscale-challenge",
+	"version": "0.1.0",
+	"private": true,
+	"dependencies": {
+		"@apollo/react-hooks": "3.1.5",
+		"@testing-library/jest-dom": "^4.2.4",
+		"@testing-library/react": "^9.3.2",
+		"@testing-library/user-event": "^7.1.2",
+		"apollo-boost": "0.4.9",
+		"apollo-cache-inmemory": "1.6.6",
+		"apollo-client": "2.6.10",
+		"apollo-link-context": "1.0.20",
+		"apollo-link-http": "1.5.17",
+		"bootstrap": "4.5.0",
+		"graphql": "15.3.0",
+		"graphql-tag": "2.10.4",
+		"react": "^16.13.1",
+		"react-apollo": "3.1.5",
+		"react-base-table": "1.10.4",
+		"react-dom": "^16.13.1",
+		"react-medium-image-zoom": "4.3.1",
+		"react-router-dom": "5.2.0",
+		"react-scripts": "3.4.1",
+		"react-texty": "0.6.0",
+		"styled-components": "5.1.1"
+	},
+	"scripts": {
+		"start": "react-scripts start",
+		"build": "react-scripts build",
+		"test": "react-scripts test",
+		"eject": "react-scripts eject",
+		"lint": "eslint './src/**/*.{js,jsx}'",
+		"lint:fix": "eslint './src/**/*.{js,jsx}' --fix"
+	},
+	"eslintConfig": {
+		"extends": "react-app"
+	},
+	"browserslist": {
+		"production": [
+			">0.2%",
+			"not dead",
+			"not op_mini all"
+		],
+		"development": [
+			"last 1 chrome version",
+			"last 1 firefox version",
+			"last 1 safari version"
+		]
+	},
+	"devDependencies": {
+		"@babel/core": "7.10.4",
+		"@babel/plugin-proposal-optional-chaining": "7.10.4",
+		"babel-eslint": "10.1.0",
+		"eslint-config-prettier": "6.11.0",
+		"eslint-loader": "4.0.2",
+		"eslint-plugin-babel": "5.3.1",
+		"eslint-plugin-prettier": "3.1.4",
+		"eslint-plugin-react": "7.20.3",
+		"prettier": "2.0.5"
+	}
+}
